@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ----------------header-section---------------- */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.top-banner2 {
+    background-color: #161616;
+    width: 90%;
+    height: 456px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.container {
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.container p {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.top-title {
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.set-button1 {
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.banner {
+    width: 50%;
+}
+
+.banner img {
+    width: 90%;
+    margin-top: 15px;
+}
+
+
+/* -----------main-section---------------- */
+
+.second-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.second-banner2 {
+    background-color: #161616;
+    width: 20%;
+    height: 220px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.side-menu {
+    text-decoration: none;
+    background-color: aliceblue;
+    color: #161616;
+    width: 80%;
+    padding: 7px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#different-menu-item {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.fixtures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 23px;
+    grid-column-gap: 15px;
+    ;
+    margin-left: 15px;
+}
+
+.match-sedual {
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.germany-spain {
+    display: table;
+    justify-content: center;
+    margin: 10px;
+}
+
+.germany-spain img {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 10px;
+    width: 60px;
+}
+
+.germany-spain h3 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+.starting-time h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.starting-time p {
+    font-size: 10px;
+    color: #969696;
+    text-align: center;
+}
+
+.hidden-button-container {
+    display: none;
+}
+
+.hidden-button-container a {
+    text-decoration: none;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+
+
+/*--------------footer-section=-------------- */
+
+footer {
+    margin-top: 50px;
+    background-color: #161616;
+}
+
+.main-footer {
+    height: 350px;
+    color: #B9B9B9;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer-tittle {
+    margin-top: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+hr {
+    border: 0.3px solid #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-ancor a {
+    text-decoration: none;
+    color: #B9B9B9;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.last-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media a {
+    margin-right: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.fa-facebook-square {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+
+/* ----------------------------mibile-------------------------- */
+
+@media only screen and (max-width:576px) {
+    body {
+        margin: 0;
+    }
+    header {
+        margin-bottom: 24px;
+        margin-right: 12px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .top-banner {
+        display: flex;
+        justify-content: center;
+    }
+    .top-banner2 {
+        width: 90%;
+        height: 370px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-title {
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+    .container {
+        width: 50%;
+        margin-top: 0;
+        text-align: center;
+        margin-left: 0;
+    }
+    .container p {
+        font-size: 8px;
+    }
+    .banner img {
+        width: 85%;
+        margin-top: 30px;
+    }
+    /* main section */
+    .second-banner2 {
+        background-color: transparent;
+        width: 60%;
+        height: 220px;
+    }
+    .second-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fixtures {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .match-sedual {
+        border: 1px solid rgb(236, 236, 236);
+        border-radius: 5px;
+        width: 300px;
+        height: 220px;
+    }
+    .germany-spain {
+        display: table;
+        justify-content: center;
+        margin: 10px;
+    }
+    .germany-spain img {
+        display: table-cell;
+        vertical-align: middle;
+        margin: 10px;
+        width: 110px;
+    }
+    .germany-spain h3 {
+        font-size: 10px;
+    }
+    .starting-time h3 {
+        font-size: 20px;
+    }
+    .starting-time p {
+        font-size: 20px;
+    }
+    footer {
+        width: 100%;
+    }
+    .main-footer {
+        height: 650px;
+    }
+    .footer-ancor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-ancor a {
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media a {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* -----------ipad---------------- */
+
+@media only screen and (min-width:567px) and (max-width:768px) {
+    .top-title {
+        font-size: 40px;
+    }
+    .top-banner2 {
+        width: 90%;
+        height: 370px;
+        border-radius: 15px;
+    }
+    .container {
+        width: 50%;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .banner img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .second-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-banner2 {
+        background-color: transparent;
+        width: 90%;
+        height: 100px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .side-menu {
+        width: 190px;
+    }
+    .fixtures {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .match-sedual {
+        border-radius: 5px;
+        width: 320px;
+        height: 250px;
+    }
+    .germany-spain {
+        display: table;
+        justify-content: center;
+        margin: 20px;
+    }
+    .germany-spain img {
+        margin: 10px;
+        width: 120px;
+    }
+    .germany-spain h3 {
+        font-size: 20px;
+    }
+    .starting-time h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .starting-time p {
+        font-size: 20px;
+    }
+    .hidden-button-container {
+        display: block;
+    }
+    .footer-ancor {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-ancor a {
+        font-size: 15px;
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+}
